@@ -1,5 +1,14 @@
+html{
+	height: 100%;
+}
+
+body{
+height: 100%;
+margin: 0px;
+}
+
 .wrap{
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 100%;
     left: 0;
@@ -14,27 +23,32 @@
     width: 250px;
     height: 340px;
     border: 1.5px solid;
-    position: absolute;
+    position: relative;
     background-color: rgb(240, 253, 255);
     border-radius: 10px;
+	border-color: black;
 }
-#up_num{
+.up_num{
     position: absolute;
     top: 0.5px;
     left: 10px;
     color: red;
+	font-size: 45px;
+	font-weight: 600;
 }
-#down_num{
+.down_num{
     position: absolute;
     bottom: 0.5px;
     right: 10px;
     color: red;
+	font-size: 45px;
+	font-weight: 600;
 }
-#rhombus1{
+.rhombus1{
     clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
     color: red;
 }
-#triangle-up1 {
+.triangle-up1 {
     position: absolute;
 	width: 0;
 	height: 0;
@@ -44,7 +58,7 @@
     top: 40px;
     left: 40px;
 }
-#triangle-down1 {
+.triangle-down1 {
     position: absolute;
 	width: 0;
 	height: 0;
@@ -54,7 +68,7 @@
     bottom: 260.5px;
     left:40px;
 }
-#triangle-up2 {
+.triangle-up2 {
     position: absolute;
 	width: 0;
 	height: 0;
@@ -64,7 +78,7 @@
     top: 260.5px;
     left: 40px;
 }
-#triangle-down2 {
+.triangle-down2 {
     position: absolute;
 	width: 0;
 	height: 0;
@@ -74,7 +88,7 @@
     bottom: 40px;
     left:40px;
 }
-#triangle-up3 {
+.triangle-up3 {
     position: absolute;
 	width: 0;
 	height: 0;
@@ -84,7 +98,7 @@
     top: 150px;
     left: 40px;
 }
-#triangle-down3 {
+.triangle-down3 {
     position: absolute;
 	width: 0;
 	height: 0;
@@ -94,7 +108,7 @@
     bottom: 150px;
     left:40px;
 }
-#triangle-up4 {
+.triangle-up4 {
     position: absolute;
 	width: 0;
 	height: 0;
@@ -104,7 +118,7 @@
     top: 40px;
     right: 40px;
 }
-#triangle-down4 {
+.triangle-down4 {
     position: absolute;
 	width: 0;
 	height: 0;
@@ -114,7 +128,7 @@
     bottom: 260.5px;
     right:40px;
 }
-#triangle-up5 {
+.triangle-up5 {
     position: absolute;
 	width: 0;
 	height: 0;
@@ -124,7 +138,7 @@
     top: 260.5px;
     right: 40px;
 }
-#triangle-down5 {
+.triangle-down5 {
     position: absolute;
 	width: 0;
 	height: 0;
@@ -134,7 +148,7 @@
     bottom: 40px;
     right:40px;
 }
-#triangle-up6 {
+.triangle-up6 {
     position: absolute;
 	width: 0;
 	height: 0;
@@ -144,7 +158,7 @@
     top: 150px;
     right: 40px;
 }
-#triangle-down6 {
+.triangle-down6 {
     position: absolute;
 	width: 0;
 	height: 0;
@@ -154,7 +168,7 @@
     bottom: 150px;
     right:40px;
 }
-#triangle-up7 {
+.triangle-up7 {
     position: absolute;
 	width: 0;
 	height: 0;
@@ -164,7 +178,7 @@
     top:95px;
     left: 105px;
 }
-#triangle-down7 {
+.triangle-down7 {
     position: absolute;
 	width: 0;
 	height: 0;
@@ -174,7 +188,7 @@
     bottom: 205.25px;
     left:105px;
 }
-#triangle-up8 {
+.triangle-up8 {
     position: absolute;
 	width: 0;
 	height: 0;
@@ -184,7 +198,7 @@
     top:205.25px;
     left: 105px;
 }
-#triangle-down8 {
+.triangle-down8 {
     position: absolute;
 	width: 0;
 	height: 0;

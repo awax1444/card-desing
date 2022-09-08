@@ -1,0 +1,125 @@
+html{
+	height: 100%;
+}
+
+body{
+height: 100%;
+margin: 0px;
+}
+
+.wrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 250px;
+    height: 340px;
+    border: 1.5px solid;
+    position: relative;
+    background-color: rgb(240, 253, 255);
+    border-radius: 10px;
+	border-color: black;
+}
+.num{
+    color: red;
+	font-size: 45px;
+	font-weight: 600;
+}
+.up_num{
+    position: absolute;
+    top: 0.5px;
+    left: 10px;
+}
+.down_num{
+    position: absolute;
+    bottom: 0.5px;
+    right: 10px;
+}
+
+.squares{
+	background: red;
+	
+}
+.square1{
+	position: absolute;
+    background: red;
+    width: 27px;
+    height: 27px;
+    top: 40px;
+    left: 40px;
+	rotate: 45deg;
+}
+
+.square2{
+	position: absolute;
+	background: red;
+    width: 27px;
+    height: 27px;
+    top: 150px;
+    left: 40px;
+	rotate: 45deg;
+}
+.square3{
+	position: absolute;
+	background: red;
+    width: 27px;
+    height: 27px;
+    top: 260px;
+    left: 40px;
+	rotate: 45deg;
+}
+
+.square4{
+	position: absolute;
+    background: red;
+    width: 27px;
+    height: 27px;
+    top: 40px;
+    right: 40px;
+	rotate: 45deg;
+}
+
+.square5{
+	position: absolute;
+	background: red;
+    width: 27px;
+    height: 27px;
+    top: 150px;
+    right: 40px;
+	rotate: 45deg;
+}
+.square6{
+	position: absolute;
+	background: red;
+    width: 27px;
+    height: 27px;
+    top: 260px;
+    right: 40px;
+	rotate: 45deg;
+}
+.square7{
+	position: absolute;
+	background: red;
+	width: 27px;
+	height: 27px;
+	top: 95px;
+	left: 110px;
+	rotate: 45deg;
+}
+.square8{
+	position: absolute;
+	background: red;
+	width: 27px;
+	height: 27px;
+	top: 200px;
+	left: 110px;
+	rotate: 45deg;
+}
