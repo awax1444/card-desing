@@ -1,13 +1,13 @@
-html{
-	height: 100%;
+html {
+    height: 100%;
 }
 
-body{
-height: 100%;
-margin: 0px;
+body {
+    height: 100%;
+    margin: 0px;
 }
 
-.wrap{
+.wrap {
     position: relative;
     width: 100%;
     height: 100%;
@@ -17,70 +17,78 @@ margin: 0px;
     align-items: center;
 }
 
-.card{
+.card {
     width: 250px;
     height: 340px;
     border: 1.5px solid;
     position: relative;
     background-color: rgb(240, 253, 255);
     border-radius: 10px;
-	border-color: black;
+    border-color: black;
 }
-.num{
-    color: red;
-	font-size: 45px;
-	font-weight: 600;
-}
-.up_num{
+
+.num {
     position: absolute;
+    color: red;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.up_num {
     top: 0.5px;
     left: 10px;
 }
-.down_num{
-    position: absolute;
+
+.down_num {
     bottom: 0.5px;
     right: 10px;
 }
 
-.squares{
-	position:absolute;
-	background: red;
-	width: 27px;
+.square {
+    position: absolute;
+    background: red;
+    width: 27px;
     height: 27px;
-	rotate: 45deg;
-}
-span#squere1.squares{
-    top: 40px;
-    left: 40px;
+    rotate: 45deg;
 }
 
-span#squere2.squares{
+.square_1 {
+    top: 40px;
+    left: 40px;
+
+}
+
+.square_2 {
     top: 150px;
     left: 40px;
 }
-span#squere3.squares{
+
+.square_3 {
     top: 260px;
     left: 40px;
 }
 
-span#squere4.squares{
+.square_4 {
     top: 40px;
     right: 40px;
 }
 
-span#squere5.squares{
+.square_5 {
     top: 150px;
     right: 40px;
 }
-span#squere6.squares{
+
+.square_6 {
     top: 260px;
     right: 40px;
 }
-span#squere7.squares{
-	top: 95px;
-	left: 110px;
+
+.square_7 {
+    top: 95px;
+    left: 110px;
 }
-span#squere8.squares{
-	top: 200px;
-	left: 110px;
+
+.square_8 {
+    top: 205px;
+    left: 110px;
 }
