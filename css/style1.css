@@ -11,8 +11,6 @@ margin: 0px;
     position: relative;
     width: 100%;
     height: 100%;
-    left: 0;
-    top: 0;
     background-color: aqua;
     display: flex;
     justify-content: center;
@@ -45,81 +43,44 @@ margin: 0px;
 }
 
 .squares{
-	background: red;
-	
-}
-.square1{
-	position: absolute;
-    background: red;
-    width: 27px;
-    height: 27px;
-    top: 40px;
-    left: 40px;
-	rotate: 45deg;
-}
-
-.square2{
-	position: absolute;
-	background: red;
-    width: 27px;
-    height: 27px;
-    top: 150px;
-    left: 40px;
-	rotate: 45deg;
-}
-.square3{
-	position: absolute;
-	background: red;
-    width: 27px;
-    height: 27px;
-    top: 260px;
-    left: 40px;
-	rotate: 45deg;
-}
-
-.square4{
-	position: absolute;
-    background: red;
-    width: 27px;
-    height: 27px;
-    top: 40px;
-    right: 40px;
-	rotate: 45deg;
-}
-
-.square5{
-	position: absolute;
-	background: red;
-    width: 27px;
-    height: 27px;
-    top: 150px;
-    right: 40px;
-	rotate: 45deg;
-}
-.square6{
-	position: absolute;
-	background: red;
-    width: 27px;
-    height: 27px;
-    top: 260px;
-    right: 40px;
-	rotate: 45deg;
-}
-.square7{
-	position: absolute;
+	position:absolute;
 	background: red;
 	width: 27px;
-	height: 27px;
+    height: 27px;
+	rotate: 45deg;
+}
+span#squere1.squares{
+    top: 40px;
+    left: 40px;
+}
+
+span#squere2.squares{
+    top: 150px;
+    left: 40px;
+}
+span#squere3.squares{
+    top: 260px;
+    left: 40px;
+}
+
+span#squere4.squares{
+    top: 40px;
+    right: 40px;
+}
+
+span#squere5.squares{
+    top: 150px;
+    right: 40px;
+}
+span#squere6.squares{
+    top: 260px;
+    right: 40px;
+}
+span#squere7.squares{
 	top: 95px;
 	left: 110px;
-	rotate: 45deg;
 }
-.square8{
-	position: absolute;
-	background: red;
-	width: 27px;
-	height: 27px;
+span#squere8.squares{
 	top: 200px;
 	left: 110px;
-	rotate: 45deg;
 }
