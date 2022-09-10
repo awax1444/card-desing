@@ -13,11 +13,13 @@ body {
     height: 100%;
     background-color: aqua;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-.card {
+
+/* 8 Бубн */
+.card_diamonds {
     width: 250px;
     height: 340px;
     border: 1.5px solid;
@@ -27,7 +29,7 @@ body {
     border-color: black;
 }
 
-.num {
+.num_d {
     position: absolute;
     color: red;
     font-size: 45px;
@@ -91,4 +93,68 @@ body {
 .square_8 {
     top: 205px;
     left: 110px;
+}
+
+/* 6 Пик */
+.card_spades {
+    width: 250px;
+    height: 340px;
+    border: 1.5px solid;
+    position: relative;
+    background-color: rgb(240, 253, 255);
+    border-radius: 10px;
+    border-color: black;
+}
+
+.num_s {
+    position: absolute;
+    color: black;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.pike {
+    position: absolute;
+    font-size: 70px;
+}
+
+.pike_1 {
+    top: 15px;
+    left: 35px;
+
+}
+
+.pike_2 {
+    top: 125px;
+    left: 35px;
+}
+
+.pike_3 {
+    top: 235px;
+    left: 35px;
+}
+
+.pike_4 {
+    top: 15px;
+    right: 35px;
+}
+
+.pike_5 {
+    top: 125px;
+    right: 35px;
+}
+
+.pike_6 {
+    top: 235px;
+    right: 35px;
+}
+
+.pike_7 {
+    top: 70px;
+    left: 105px;
+}
+
+.pike_8 {
+    top: 180px;
+    left: 105px;
 }
